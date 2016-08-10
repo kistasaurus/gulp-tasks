@@ -1,3 +1,5 @@
+// This script will rename a file to whatever it's parent folder is named, save that file to the same folder as the original, then delete the original.
+
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
     path = require('path'),
